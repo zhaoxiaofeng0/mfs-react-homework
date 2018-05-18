@@ -15,9 +15,34 @@ Ctrl+Shift+N	打开新的编辑器窗口
 Ctrl+Shift+W	关闭编辑器 
 
 
-现代web前端开发，前后端分离比较明显，前后端分离的工作流程可以使前端只关注前端的事，后台只关心后台的活，两者开发可以同时进行，在后台还没有时间提供接口的时候，前端可以先将数据写死或者调用本地的json文件即可，页面的增加和路由的修改也不必再去麻烦后台，开发更加灵活。
-## 命令式编程 与 声明式编程 有何不同？
-命令式编程：命令“机器”如何去做事情，这样不管你想要的是什么，它都会按照你的命令实现，命令式编程强调处理过程细节
+## 基础编辑
+快捷键	作用
+Ctrl + X	剪切
+Ctrl + C	复制
+Alt + up/down	移动行上下
+Shift + Alt up/down	在当前行上下复制当前行
+Ctrl + Shift + K	删除行
+Ctrl + Enter	在当前行下插入新的一行
+Ctrl + Shift + Enter	在当前行上插入新的一行
+Ctrl + Shift + | 匹配花括号的闭合处，跳转	
+Ctrl + ] / [	行缩进
+Home	光标跳转到行头
+End	光标跳转到行尾
+Ctrl + Home	跳转到页头
+Ctrl + End	跳转到页尾
+Ctrl + up/down	行视图上下偏移
+Alt + PgUp/PgDown	屏视图上下偏移
+Ctrl + Shift + [	折叠区域代码
+Ctrl + Shift + ]	展开区域代码
+Ctrl + K Ctrl + [	折叠所有子区域代码
+Ctrl + k Ctrl + ]	展开所有折叠的子区域代码
+Ctrl + K Ctrl + 0	折叠所有区域代码
+Ctrl + K Ctrl + J	展开所有折叠区域代码
+Ctrl + K Ctrl + C	添加行注释
+Ctrl + K Ctrl + U	删除行注释
+Ctrl + /	添加关闭行注释
+Shift + Alt +A	块区域注释
+Alt + Z	添加关闭词汇包含
 
 
 声明式编程：告诉“机器”你想要的是什么，让机器想出如何去做，声明式更加直观，声明式说白了就是对命令式的上层封装。
