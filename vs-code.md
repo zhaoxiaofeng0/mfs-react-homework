@@ -1,9 +1,17 @@
 # Visual Studio Code常用功能说明
 ## 通用快捷键
 快捷键	作用
+
+
 Ctrl+Shift+P,F1	展示全局命令面板
+
+
 Ctrl+P	快速打开最近打开的文件
+
+
 Ctrl+Shift+N	打开新的编辑器窗口
+
+
 Ctrl+Shift+W	关闭编辑器 
 
 
