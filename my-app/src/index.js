@@ -10,9 +10,4 @@ class HelloMessage extends React.Component {
       );
     }
   }
-  
-  ReactDOM.render(
-    <div>
-      <HelloMessage name="world" />
-    </div>
-    , document.getElementById("root"));
+  ReactDOM.render(<HelloMessage name="world" />, document.getElementById("root"));
