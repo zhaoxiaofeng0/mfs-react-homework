@@ -18,11 +18,8 @@
          next:function(){
              if(i<3){
                 return{value:i++ , done:false}
-             }else if(i===3){
-                 i++;
-                 return {value:3, done:true}
-             }else{
-                 return{value:undefined , done:true}
+             }else if(i>=3){
+                 return {value:undefined, done:true}
              }
          }
      }
